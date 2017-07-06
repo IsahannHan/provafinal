@@ -2,7 +2,7 @@ package questoes;
 
 public class Ex04 {
 	private static char[] vet;
-	public static void execute(int num){
+	public static void execute(Integer num){
 		char[] charVet = String.valueOf(num).toCharArray();
 		vet = new char[charVet.length * 2];
 		
